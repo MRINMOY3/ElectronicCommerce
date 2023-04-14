@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Form Page</title>
+</head> 
+<body>
+<form method="POST" action="response.html" ENCTYPE="text/plain" target="_blank">
+<label for="fname" style="color:red; font-family:arial; font-size:20px;">Enter your name:</label>
+<input type="text" name="fname" placeholder="Enter your name" size="40" maxlength="30"><br><br>
+<label for="email" style="font-size:20px;">Enter your email id:</label>
+<input type="email" name="email"><br><br>
+<label for="pw" style="font-size:20px;">Enter password:</label>
+<input type="password" name="pw" value="" size="30"><br><br>
+<input type="image" name="img" src="assetno.jpg" alt="Login" width="70" height="30"><br><br>
+
+<label for="gender" style="font-size:20px;">Gender: </label><br><br>
+<input type="radio" name="gender" checked>Male<br><br>
+<input type="radio" name="gender">Female<br><br>
+
+<label for="cb" style="font-size:20px;">Programming Language known:</label><br><br>
+<input type="checkbox" id="cb" name="c" value="yes" checked>C<br>
+<input type="checkbox" id="cb" name="c++" value="yes" checked>C++<br>
+<input type="checkbox" id="cb" name="java" value="yes" checked>Java<br>
+<input type="checkbox" id="cb" name="Python" value="yes">Python<br>
+<input type="checkbox" id="cb" name="Matlab" value="yes">Matlab<br>
+<input type="checkbox" id="cb" name="PHP" value="yes">PHP<br>
+<input type="checkbox" id="cb" name="R" value="yes">R<br><br>
+
+<label for="colour" style="font-size:20px;">Favorite colour:</label><br><br>
+<select name="colour" size="2" multiple>
+<option>Red</option> 
+<option>Blue</option> 
+<option>Green</option>
+<option>Yellow</option>
+<option>Purple</option>
+<option>Orange</option> 
+</select><br><br>
+
+<label for="text" style="font-size:20px;">Give your Comments:</label><br><br>
+<textarea rows="5" cols="50"></textarea><br><br>
+
+<input type="submit" name="button" value="Submit" style="color:red; font-family:arial; font-size:20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Reset" style="color:red; font-family:arial; font-size:20px;">
+</form>
+</body>
+</html>
